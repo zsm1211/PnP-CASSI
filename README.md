@@ -15,3 +15,5 @@ We propose a plug-and-play (PnP) method, which uses deep-learning-based denoiser
 </p>
 
 Figure 2.Image formation process of a typical spectral SCI system,i.e., SD-CASSI and the reconstruction process using the proposed deep plug-and-play (PnP) prioralgorithm.
+
+## Usage
