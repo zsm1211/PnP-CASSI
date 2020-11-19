@@ -28,5 +28,5 @@ git clone https://github.com/zsm1211/PnP-CASSI
 ## Test spectral data in the paper
 
 <p align="center">
-<img src="https://github.com/zsm1211/PnP-CASSI/blob/main/img/fig01_flow_chart-1.png?height="300" width="500" raw=true">
+<img src="https://github.com/zsm1211/PnP-CASSI/blob/main/img/Sim_data_RGB-1.png?height="300" width="1100" raw=true">
 </p>
