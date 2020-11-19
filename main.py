@@ -15,7 +15,7 @@ from bm3d import bm3d_deblurring, BM3DProfile, gaussian_kernel
 
 datasetdir = './Dataset' # dataset
 resultsdir = './results' # results
-datname = 'kaist_crop256_07' # name of the dataset
+datname = 'kaist_crop256_01' # name of the dataset
 matfile = datasetdir + '/' + datname + '.mat' # path of the .mat data file
 method = 'GAP'          # 'ADMM'
 ## data operation
