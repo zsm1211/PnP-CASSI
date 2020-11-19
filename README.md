@@ -24,3 +24,9 @@ git clone https://github.com/zsm1211/PnP-CASSI
 2. Run the file **main.py** to test the data.
 
 3. We provide masks at 3 different resolutions, you can generate your own mask for HSI at different resolutions. 
+
+## Test spectral data in the paper
+
+<p align="center">
+<img src="https://github.com/zsm1211/PnP-CASSI/blob/main/img/fig01_flow_chart-1.png?height="300" width="500" raw=true">
+</p>
