@@ -21,3 +21,6 @@ Figure 2.Image formation process of a typical spectral SCI system,i.e., SD-CASSI
 ```
 git clone https://github.com/zsm1211/PnP-CASSI
 ```
+2. Run the file **main.py** to test the data.
+
+3. We provide masks at 3 different resolutions, you can generate your own mask for HSI at different resolutions. 
