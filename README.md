@@ -25,10 +25,14 @@ git clone https://github.com/zsm1211/PnP-CASSI
 
 3. We provide masks at 3 different resolutions, you can generate your own mask for HSI at different resolutions. 
 
-## Test spectral data in the paper
+## Test result
+
+<p align="center">
+<img src="https://github.com/zsm1211/PnP-CASSI/blob/main/img/table.png?height="300" width="1100" raw=true">
+</p>
 
 <p align="center">
 <img src="https://github.com/zsm1211/PnP-CASSI/blob/main/img/Sim_data_RGB-1.png?height="300" width="1100" raw=true">
 </p>
 
-Figure 3.Test spectral data from ICVL (a) and KAIST (b)datasets used in simulation. The reference RGB images with pixel resolution **256×256** are shown here. We crop similar regions of the whole image for spatial sizes of 512×512 and 1024×1024. 
+Figure 3.Test spectral data from ICVL (a) and KAIST (b) datasets used in simulation. The reference RGB images with pixel resolution **256×256** are shown here. We crop similar regions of the whole image for spatial sizes of 512×512 and 1024×1024. 
