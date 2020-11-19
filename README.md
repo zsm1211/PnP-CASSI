@@ -19,5 +19,5 @@ Figure 2.Image formation process of a typical spectral SCI system,i.e., SD-CASSI
 ## Usage
 1. Download this repository via git or download the [zip file](https://github.com/liuyang12/PnP-SCI/archive/master.zip "PnP-SCI") manually.
 ```
-git clone 
+git clone https://github.com/zsm1211/PnP-CASSI
 ```
