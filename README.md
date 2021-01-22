@@ -1,5 +1,5 @@
 # PnP-CASSI
-Python(pytorch) code for the paper:**Siming Zheng, Yang Liu, Ziyi Meng, Mu Qiao, Zhishen Tong, Xiaoyu Yang, Shensheng Han, and Xin Yuan, "Deep plug-and-play priors for spectral snapshot compressive imaging," Photon. Res. 9, B18-B29 (2021) **
+Python(pytorch) code for the paper: **Siming Zheng, Yang Liu, Ziyi Meng, Mu Qiao, Zhishen Tong, Xiaoyu Yang, Shensheng Han, and Xin Yuan, "Deep plug-and-play priors for spectral snapshot compressive imaging," Photon. Res. 9, B18-B29 (2021)**
 
 <p align="left">
 <img src="https://github.com/zsm1211/PnP-CASSI/blob/main/img/Simu_colorchecker_256-1.png?height="600" width="466"raw=true">
