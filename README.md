@@ -36,3 +36,21 @@ git clone https://github.com/zsm1211/PnP-CASSI
 </p>
 
 Figure 3.Test spectral data from ICVL (a) and KAIST (b) datasets used in simulation. The reference RGB images with pixel resolution **256×256** are shown here. We crop similar regions of the whole image for spatial sizes of 512×512 and 1024×1024. 
+## Citation
+```
+@article{Zheng:21,
+author = {Siming Zheng and Yang Liu and Ziyi Meng and Mu Qiao and Zhishen Tong and Xiaoyu Yang and Shensheng Han and Xin Yuan},
+journal = {Photon. Res.},
+keywords = {Compressive imaging; Hyperspectral imaging; Multispectral imaging; Reconstruction algorithms; Remote sensing; Spatial light modulators},
+number = {2},
+pages = {B18--B29},
+publisher = {OSA},
+title = {Deep plug-and-play priors for spectral snapshot compressive imaging},
+volume = {9},
+month = {Feb},
+year = {2021},
+url = {http://www.osapublishing.org/prj/abstract.cfm?URI=prj-9-2-B18},
+doi = {10.1364/PRJ.411745},
+abstract = {We propose a plug-and-play (PnP) method that uses deep-learning-based denoisers as regularization priors for spectral snapshot compressive imaging (SCI). Our method is efficient in terms of reconstruction quality and speed trade-off, and flexible enough to be ready to use for different compressive coding mechanisms. We demonstrate the efficiency and flexibility in both simulations and five different spectral SCI systems and show that the proposed deep PnP prior could achieve state-of-the-art results with a simple plug-in based on the optimization framework. This paves the way for capturing and recovering multi- or hyperspectral information in one snapshot, which might inspire intriguing applications in remote sensing, biomedical science, and material science. Our code is available at: https://github.com/zsm1211/PnP-CASSI.},
+}
+```
