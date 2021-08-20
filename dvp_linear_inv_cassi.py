@@ -342,7 +342,7 @@ def admm_denoise(y, Phi, A, At, _lambda=1, gamma=0.01,
     device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
     model = net()
     model.load_state_dict(
-        torch.load(r'/home/dgl/zhengsiming/self_train/check_points/best_smallsigma.pth'))
+        torch.load(r'/home/dgl/zhengsiming/self_train/check_points/deep_denoiser.pth'))
     model.eval()
     for q, v in model.named_parameters():
         v.requires_grad = False
