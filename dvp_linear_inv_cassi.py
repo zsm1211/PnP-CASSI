@@ -88,15 +88,6 @@ def gap_denoise(y, Phi, A, At, _lambda=1, accelerate=True,
            Analysis and Machine Intelligence, doi:10.1109/TPAMI.2018.2873587, 
            2018.
 
-    Code credit
-    -----------
-    Xin Yuan, Bell Labs, xyuan@bell-labs.com, created Aug 7, 2018.
-    Yang Liu, Tsinghua University, y-liu16@mails.tsinghua.edu.cn, 
-      updated Jan 22, 2019.
-
-    See Also
-    --------
-    admm_denoise
     '''
     # [0] initialization
     if x0 is None:
@@ -312,16 +303,6 @@ def admm_denoise(y, Phi, A, At, _lambda=1, gamma=0.01,
            for Snapshot Compressive Imaging," IEEE Transactions on Pattern 
            Analysis and Machine Intelligence, doi:10.1109/TPAMI.2018.2873587, 
            2018.
-
-    Code credit
-    -----------
-    Xin Yuan, Bell Labs, xyuan@bell-labs.com, created Aug 7, 2018.
-    Yang Liu, Tsinghua University, y-liu16@mails.tsinghua.edu.cn, 
-      updated Jan 22, 2019.
-
-    See Also
-    --------
-    gap_denoise
     '''
     # [0] initialization
     if x0 is None:
@@ -358,14 +339,6 @@ def admm_denoise(y, Phi, A, At, _lambda=1, gamma=0.01,
             if denoiser.lower() == 'tv': # total variation (TV) denoising
                 #theta = denoise_tv_chambolle(x1, nsig/255, n_iter_max=tv_iter_max, multichannel=multichannel)
                 theta = TV_denoiser(x1, tv_weight, n_iter_max=tv_iter_max)
-            elif denoiser.lower() == 'wavelet': # wavelet denoising
-                if noise_estimate or nsig is None: # noise estimation enabled
-                    theta = denoise_wavelet(x1, multichannel=multichannel)
-                else:
-                    theta = denoise_wavelet(x1, sigma=nsig, multichannel=multichannel)
-            elif denoiser.lower() == 'vnlnet': # Video Non-local net denoising
-                theta = vnlnet(np.expand_dims((x1).transpose(2,0,1),3), nsig)
-                theta = np.transpose(theta.squeeze(3),(1,2,0))
             elif denoiser.lower() == 'hsicnn':
                 if k>=89:
                     tem = None
