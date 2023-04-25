@@ -58,7 +58,7 @@ if method == 'GAP':
     vrecon = shift_back(vgaptv,step=1)
     tgaptv = end_time - begin_time
     print('GAP-{} PSNR {:2.2f} dB, running time {:.1f} seconds.'.format(
-        denoiser.upper(), mean(psnr_gaptv), tgaptv))
+        denoiser.upper(), psnr_gaptv[-1], tgaptv))
 elif method == 'ADMM':
     ## [2.1] ADMM [for baseline reference]
     _lambda = 1 # regularization factor
@@ -77,7 +77,7 @@ elif method == 'ADMM':
     vrecon = shift_back(vadmmtv,step=2)
     tadmmtv = end_time - begin_time
     print('ADMM-{} PSNR {:2.2f} dB, running time {:.1f} seconds.'.format(
-        denoiser.upper(), mean(psnr_admmtv), tadmmtv))
+        denoiser.upper(), psnr_admmtv[-1], tadmmtv))
 else:
     print('please input correct method.')
 sio.savemat('./result_img/{}_result.mat'.format(datname),{'img':vrecon})
